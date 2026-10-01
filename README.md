@@ -64,8 +64,8 @@ Inference только на CPU, обучения в сервисе нет.
 Нужны Docker 20.10+ и Docker Compose v2. На хосте должны быть свободны порты 8080, 8501 и 9095.
 
 ```bash
-git clone https://github.com/<user>/<repo>.git
-cd <repo>
+git clone https://github.com/BorisTerminator/mlops-hw1-fraud-kafka.git
+cd mlops-hw1-fraud-kafka
 docker compose up -d --build
 ```
 
