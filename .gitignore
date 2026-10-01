@@ -1,0 +1,9 @@
+# Полные датасеты соревнования не коммитим (train.csv > 100 МБ)
+data/*.csv
+!data/sample_test.csv
+
+__pycache__/
+*.pyc
+.venv/
+.idea/
+.vscode/
